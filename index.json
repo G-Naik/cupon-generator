@@ -1,0 +1,15 @@
+{
+    "cupons":[
+        {
+            "brand":"zara",
+            "cupon":"Zara60",
+            "expiryData":"22092023"
+        },
+        {
+            "brand":"dominos",
+            "cupon":"Dominos50",
+            "expiryData":"22092023"
+        }
+    ]
+}
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupons</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .cupon-container{
+            width: 300px;
+            height: 200px;
+            background-color: black;
+            border-radius: 30px;
+        }
+        p{
+            font-size: 30px;
+            font-weight: 900;
+            padding-top:10px ;
+            color: white;
+        }
+        input,button{
+            padding: 10px;
+            margin: 10px 0px;
+            border: none;
+            color: black;
+        }
+        input:focus{
+            outline: none;
+        }
+        .cupon{
+            background-color: whitesmoke;
+            width: 100px;
+            height: 30px;
+        }
+        .dflex{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .dflex h3{
+            width: 220px;
+            height: 50px;
+            padding-top:10px ;
+            border-radius: 10px;
+            font-size: 25px;
+        }
+        .displayCupon button{
+            background-color:green;
+            color: white;
+
+        } 
+    </style>
+</head>
+<body>
+    <div class="cupon-container">
+        <p>Search Cupons</p>
+        <form action="">
+            <div class="dflex">
+                <input type="text" id="cuponSearch">
+                <button style="background-color: blue;color: white;">Search</button>
+            </div>
+        </form>
+        <div class="displayCupon dflex">
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
