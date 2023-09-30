@@ -1,21 +1,27 @@
-Features
+# Cupons Search Web App
 
-Search Coupons: Enter a brand name to search for available coupons.
-Display Coupons: Matching coupons are displayed below the search form.
-Case-Insensitive Search: The search is not case-sensitive, so it works with any letter casing.
-Error Handling: Alerts inform users about errors, such as network issues during data retrieval.
-Clean Code: The code is structured using modern JavaScript features for readability and maintainability.
+The Cupons Search web application allows users to search for coupons by entering a brand name. It displays coupons related to the brand entered by the user. This simple application helps users find discounts and deals quickly.
 
-Usage
+## Features
 
-Enter a brand name in the search input field.
-Click the "Search" button to find coupons for the specified brand.
-Coupons matching the brand are displayed below the search form.
-Error messages will be displayed if there are issues with the search.
-Note: The "Copy" feature may be added in the future to copy coupon codes.
+- *Search Cupons:* Enter a brand name and click "Search" to find coupons for that brand.
+- *Display Cupons:* View the found coupons on the screen.
+
+## Technologies Used
+
+- *HTML:* Used for structuring the web page.
+- *CSS:* Provides styling to make the app visually appealing.
+- *JavaScript:* Adds interactivity to the application.
+- *Fetch API:* Used to make asynchronous HTTP requests to fetch coupon data.
+
+## How to Use
+
+1. Clone this repository to your local machine.
+
+2. Open the `index.html` file in a web browser.
+
+3. Enter a brand name in the input field and click the "Search" button.
+
+4. View the coupons related to the entered brand in the results section.
 
 
-Styling
-
-Basic CSS styling is provided and can be customized in the styles.css file.
-The focus outline around the input field has been customized. Please consider accessibility when making further changes.
