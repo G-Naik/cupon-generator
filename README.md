@@ -2,6 +2,12 @@
 
 The Cupons Search web application allows users to search for coupons by entering a brand name. It displays coupons related to the brand entered by the user. This simple application helps users find discounts and deals quickly.
 
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [How to Use](#how-to-use)
+
 ## Features
 
 - *Search Cupons:* Enter a brand name and click "Search" to find coupons for that brand.
